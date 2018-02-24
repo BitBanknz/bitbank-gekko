@@ -8,10 +8,15 @@ Live / Paper trading via [REST API] and backtesting via CSV-based prediction dat
 * npm install
 * npm run build
 
-Copy over these 2 files from the dist directory:
+Copy over files from the dist directory:
 * dist/BitBankStrategy.js to gekko/strategies
 * dist/BitBankStrategy.toml to gekko/config/strategies
 
+e.g.
+```
+cp dist/BitBankStrategy*.js ~/code/gekko/strategies
+cp dist/BitBankStrategy*.toml ~/code/gekko/config/strategies
+```
 ## toml config file
 
 ```
