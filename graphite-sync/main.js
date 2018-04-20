@@ -8,7 +8,7 @@ var email = ''
 var password = ''
 
 var config = {
-    apiKey: '',
+    apiKey: 'AIzaSyAzimdCJNcfxWax0j3ZOxw-wGz01mh9euU',
     authDomain: 'bitbank-nz.firebaseapp.com',
     databaseURL: 'https://bitbank-nz.firebaseio.com',
     projectId: 'bitbank-nz',
